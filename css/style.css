@@ -118,9 +118,10 @@ body {
 
 .contact-content {
     color: #F1F1F1;
+    text-align: center;
     display: inline;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     padding: 12px 12px 12px 12px;
 }
@@ -138,13 +139,14 @@ body {
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 15px;
 }
 
 .icon {
     max-height: 55px;
-    max-width: 55px;
-    padding: 15px;
+    max-width: 66px;
+    padding: 15px 15px 15px 15px;
 }
 
 .footer-container {
@@ -328,6 +330,7 @@ footer {
 .aboutme-photo {
     width: 100%;
     max-width: 320px;
+    border-radius: 12px;
 }
 
 
