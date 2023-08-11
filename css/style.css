@@ -129,7 +129,7 @@ body {
 .email {
     color: #F1F1F1;
     font-style: normal;
-    font-size: larger;
+    font-size: x-large;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -248,7 +248,13 @@ a:hover, a:active {
     border: 2px solid #74b44a;
 }
 
+.email:hover {
+    box-shadow: 7px 7px 10px #74b44a;
+}
 
+.icon:hover {
+    box-shadow: 7px 7px 10px #74b44a;
+}
 
 /* Typography
 ========================================================================== */
